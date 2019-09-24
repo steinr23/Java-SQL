@@ -1,0 +1,39 @@
+<web-app id="Project4">
+    <display-name>Project 4</display-name>
+
+    <description>
+        A suppliers/parts/jobs/shipments database with Servlet in backend and JSP in frontend
+    </description>
+
+    <servlet>
+        <servlet-name>MySQLServlet</servlet-name>
+        <description>
+           Serving from DB
+        </description>
+        <servlet-class>MySQLServlet</servlet-class>
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>jdbc:mysql://localhost:3306/project4</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>abcdef</param-value>
+        </init-param>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MySQLServlet</servlet-name>
+        <url-pattern>/MySQLServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
