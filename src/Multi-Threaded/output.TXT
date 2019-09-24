@@ -1,0 +1,46 @@
+
+***SIMULATION BEGINS***
+
+
+***SIMULATION ENDS***
+
+
+Station 0: In-Connection set to conveyor 0
+Station 0: Out-Connection set to conveyor 2
+Station 0: Workload set. Station 0 has 0 package groups to move
+Station 1: In-Connection set to conveyor 0
+Station 1: Out-Connection set to conveyor 1
+Station 1: Workload set. Station 1 has 1 package groups to move
+Station 2: In-Connection set to conveyor 1
+
+* * Station 0: workload successfully completed. * *
+
+Station 1: granted access to conveyor 0
+Station 1: granted access to conveyor 1
+Station 2: Out-Connection set to conveyor 2
+Station 1: successfully moves packages on conveyor 0
+Station 1: successfully moves packages on conveyor 1
+Station 1: has 0 package groups left to move
+Station 2: Workload set. Station 2 has 2 package groups to move
+Station 1: released access to conveyor 0
+Station 1: released access to conveyor 1
+Station 2: granted access to conveyor 1
+Station 2: granted access to conveyor 2
+Station 2: successfully moves packages on conveyor 1
+Station 2: successfully moves packages on conveyor 2
+Station 2: has 1 package groups left to move
+Station 2: released access to conveyor 1
+Station 2: released access to conveyor 2
+
+* * Station 1: workload successfully completed. * *
+
+Station 2: granted access to conveyor 1
+Station 2: granted access to conveyor 2
+Station 2: successfully moves packages on conveyor 1
+Station 2: successfully moves packages on conveyor 2
+Station 2: has 0 package groups left to move
+Station 2: released access to conveyor 1
+Station 2: released access to conveyor 2
+
+* * Station 2: workload successfully completed. * *
+
